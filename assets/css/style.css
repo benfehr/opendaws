@@ -9,5 +9,60 @@
 
 body {
     font-family: Quicksand, sans-serif;
-    font-weight: 400px;
+    font-weight: 600px;
+    color: dimgrey;
+}
+
+/* headings and logo  */
+
+h1 {
+    font-family: Quicksand, sans-serif;
+    letter-spacing: 3px;
+    color: black;
+    
+
+}
+
+#logo {
+    float: left;
+    font-size: 500%;
+    margin-top: 10px;
+}
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 3px;
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+#menu ul li {
+    float: right;
+    list-style-type: none;
+    margin: 50px;
+    position: relative;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+#menu ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: 009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+#menu ul li:hover:after {
+    width: 100%;
+
 }
