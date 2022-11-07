@@ -3,5 +3,22 @@
 * {
     margin: 0;
     padding: 0;
+    border: none;
 }
 
+body {
+    font-family: Quicksand, sans-serif;
+    font-weight: 300;
+    color: grey;
+}
+
+h1 {
+    font-family: Quicksand, sans-serif;
+    letter-spacing: 3px;
+    color: black;
+}
+
+#logo {
+    float: left;
+    font-size: 600%;
+}
