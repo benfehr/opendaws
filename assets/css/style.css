@@ -12,6 +12,10 @@ body {
     color: grey;
 }
 
+header {
+    margin-bottom: 50px;
+}
+
 h1 {
     font-family: Quicksand, sans-serif;
     letter-spacing: 3px;
@@ -20,7 +24,7 @@ h1 {
 
 #logo {
     float: left;
-    font-size: 600%;
+    font-size: 400%;
     margin-right: 50px, 0;
 }
 
@@ -53,5 +57,11 @@ h1 {
 #main-image {
     height: 600px;
     width: 100%;
-    background-image: url(../images/photo-1509310202330-aec5af561c6b.avif) no-repeat center center;
+    background: url(../images/studio-g1bbb99139_1920.jpg) no-repeat center center;
+}
+
+#image-border {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
 }
