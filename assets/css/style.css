@@ -21,4 +21,37 @@ h1 {
 #logo {
     float: left;
     font-size: 600%;
+    margin-right: 50px, 0;
+}
+
+#navbar {
+    font-size: 200%;
+    letter-spacing: 3px;
+    float: right;
+}
+
+#navbar, #logo {
+    line-height: 75px;
+}
+
+#navbar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+#navbar a:hover {
+    border-bottom: 2px solid ;
+}
+
+#main-image {
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/photo-1509310202330-aec5af561c6b.avif) no-repeat center center;
 }
