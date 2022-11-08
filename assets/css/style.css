@@ -38,7 +38,7 @@ h1 {
 }
 
 .logo {
-    width; 120px;
+    width: 120px;
     cursor: pointer;
     
 }
@@ -72,10 +72,12 @@ h1 {
     overflow: hidden;
 }
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
 }
 
 .flexbox-item-1 {
@@ -88,8 +90,4 @@ h1 {
 
 .flexbox-item-3 {
     min-height: 200px;
-}
-
-footer {
-
 }
