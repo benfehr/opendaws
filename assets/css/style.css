@@ -30,16 +30,23 @@ body {
     cursor: pointer;
 }
 
-h1 {
+h1, h2 {
     font-family: Quicksand, sans-serif;
     letter-spacing: 3px;
     color: white;
-    font-size: 400%
+    font-size: 400%;
+}
+
+h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 300%
 }
 
 .logo {
-    width: 120px;
+   
     cursor: pointer;
+    margin-left: 10px;
     
 }
 
@@ -60,34 +67,23 @@ h1 {
     border-bottom: 2px solid ;
 }
 
-#main-image {
-    height: 600px;
-    width: 100%;
-    background: url(../images/studio-g1bbb99139_1920.jpg) no-repeat center center;
-}
-
-#image-border {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-}
 .container {
+    height: 600px;
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
     text-align: center;
     color: white;
 }
 
-.flexbox-item-1 {
-    min-height: 200px;
+hr {
+    height: 200px;
 }
 
-.flexbox-item-2 {
-    min-height: 200px;
-}
 
-.flexbox-item-3 {
+.flexbox-item {
     min-height: 200px;
+    width: 100%;
+    margin: 0 auto;
 }
