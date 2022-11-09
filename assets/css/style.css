@@ -40,7 +40,8 @@ h1, h2 {
 h2 {
     text-decoration: underline;
     text-transform: uppercase;
-    font-size: 300%
+    font-size: 300%;
+    
 }
 
 .logo {
@@ -85,5 +86,8 @@ hr {
 .flexbox-item {
     min-height: 200px;
     width: 100%;
-    margin: 0 auto;
+}
+
+p {
+    font-size: 150%;
 }
