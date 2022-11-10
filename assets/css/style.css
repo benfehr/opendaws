@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 * {
     margin: 0;
@@ -6,9 +6,9 @@
     border: none;
 }
 body {
-    font-family: Quicksand, sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: 300;
-    color: grey;
+    color: white;
 }
 
 .banner {
@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2 {
-    font-family: Quicksand, sans-serif;
+    font-family: Raleway, sans-serif;
     letter-spacing: 3px;
     color: white;
     font-size: 400%;
@@ -41,6 +41,7 @@ h2 {
     text-decoration: underline;
     text-transform: uppercase;
     font-size: 300%;
+    color: black;
     
 }
 
@@ -69,18 +70,31 @@ h2 {
 }
 
 .container {
-    height: 600px;
-    width: 100%;
-    position: absolute;
-    top: 45%;
-    transform: translateY(-50%);
     text-align: center;
     color: white;
+    padding: 180px;
+}
+
+.container h1 {
+    font-size: 100px;
+}
+
+@media screen and (max-width: 770px) {
+    .container h1 {
+        font-size: 45px;
+    }
 }
 
 hr {
-    height: 200px;
+    height: 330px;
 }
+
+.title {
+    text-align: center;
+    color: black;
+    padding-top: 50px;
+}
+
 
 
 .flexbox-item {
@@ -90,4 +104,35 @@ hr {
 
 p {
     font-size: 150%;
+}
+
+#main-body {
+    color: black;
+    width: 100%;
+    padding: 70px 0;
+    margin: auto;
+    font-size: 20px;
+    display: flex;
+}
+
+#main-body h2 {
+    color: black;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials > li {
+    display: inline;
+}
+
+.socials i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: black;
+    
 }
