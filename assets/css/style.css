@@ -145,11 +145,12 @@ p {
     .first-img img {
         width: 100%;
     }
+}
 
-
-
-
-
+.email {
+    color: black;
+    text-align: center;
+}
 .socials {
     text-align: center;
 }
@@ -163,5 +164,4 @@ p {
     margin: 1%;
     padding: 5%;
     color: black;
-    
 }
