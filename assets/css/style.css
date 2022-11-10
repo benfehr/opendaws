@@ -181,6 +181,45 @@ p {
 .events h1 {
     color: black;
 }
+
+.event-box {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.event-dates {
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.event-dates img {
+    width: 100%;
+    border-radius: 7px;
+    height: 500px ;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.5),#009688);
+    opacity: 0;
+    transition: 1s;
+}
+
+.event-dates:hover .overlay {
+    opacity: 1;
+}
+
+
 @media screen and (max-width: 770px) {
     .email {
         font-size: 14px;
