@@ -82,6 +82,7 @@ h2 {
 @media screen and (max-width: 770px) {
     .container h1 {
         font-size: 45px;
+        
     }
 }
 
@@ -92,7 +93,7 @@ hr {
 .title {
     text-align: center;
     color: black;
-    padding-top: 50px;
+    padding: 50px;
 }
 
 
@@ -106,20 +107,48 @@ p {
     font-size: 150%;
 }
 
-#main-body {
+#first-section {
     color: black;
-    width: 100%;
-    padding: 70px 0;
+    width: 80%;
     margin: auto;
-    font-size: 20px;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
 }
 
-#main-body h2 {
-    color: black;
-    text-align: center;
-    padding-bottom: 70px;
+.first {
+    flex-basis: 50%;
+
 }
+
+.first-img {
+    flex-basis: 50%;
+    margin: auto;
+}
+
+.first-img img {
+    width: 70%;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 770px) {
+    .title {
+        font-size: 35px;
+    }
+    .first {
+        flex-basis: 100%;
+    }
+    .first-img {
+        flex-basis: 100%;
+    }
+    .first-img img {
+        width: 100%;
+    }
+
+
+
+
 
 .socials {
     text-align: center;
