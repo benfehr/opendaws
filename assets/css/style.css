@@ -276,3 +276,36 @@ hr {
 
     }
 
+form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+form h1 {
+    margin-bottom: 30px;
+
+}
+input {
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+
+}
+
+button {
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    background-color: grey;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
