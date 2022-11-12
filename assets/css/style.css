@@ -44,10 +44,12 @@ body {
     transform: translateY(-50%);
     text-align: center;
 }
+
 .mission-statement h1 {
     font-size: 70px;
     margin-top: 80px;
 }
+
 h1 {
     font-family: Raleway, sans-serif;
     letter-spacing: 3px;
@@ -65,7 +67,6 @@ h2 {
 
 .logo {
     font-size: 400%;
-    cursor: pointer;
     margin-left: 10px;
     color: white;
     
@@ -88,12 +89,6 @@ h2 {
     border-bottom: 2px solid ;
 }
 
-@media screen and (max-width: 770px) {
-    .mission-statement h1 {
-        font-size: 45px;
-    }
-
-}
 
 .title {
     text-align: center;
@@ -101,8 +96,6 @@ h2 {
     padding: 50px;
     flex: auto;
 }
-
-
 
 .flexbox-item {
     min-height: 200px;
@@ -144,24 +137,6 @@ p {
 .second-img img {
     width: 70%;
     border-radius: 70%;
-}
-@media screen and (max-width: 770px) {
-    .title {
-        font-size: 20px;
-    }
-    .first {
-        flex-basis: 100%;
-    }
-    .first-img {
-        flex-basis: 100%;
-    }
-    .first-img img {
-        width: 100%;
-    }
-    .second-img img {
-        width: 70%;
-        border-radius: 70%;
-    }
 }
 
 .email {
@@ -208,7 +183,7 @@ p {
 .event-dates img {
     width: 100%;
     border-radius: 7px;
-    max-height: 400px;
+    max-height: 300px;
 }
 
 .overlay {
@@ -254,28 +229,6 @@ hr {
     opacity: 1;
 }
 
-
-@media screen and (max-width: 770px) {
-    .email {
-        font-size: 14px;
-        flex-basis: 100%;
-     }
-     .event-dates {
-        flex-basis: 100%;
-        margin-bottom: 30px;
-     }
-     .event-dates p {
-        font-size: 12px;
-     }
-     hr {
-        margin: 5px auto;
-     }
-     .event-dates:hover .event-desc {
-        bottom: 25% !important;
-    }
-
-    }
-
 form {
     margin-top: 50px;
     text-align: center;
@@ -312,3 +265,37 @@ button {
 
 }
 
+@media screen and (max-width: 700px) {
+    .title {
+        font-size: 20px;
+    }
+    .first {
+        flex-basis: 100%;
+    }
+    .first-img {
+        flex-basis: 100%;
+    }
+    .first-img img {
+        width: 100%;
+    }
+    .mission-statement h1 {
+        font-size: 35px;
+    }
+    .email {
+        font-size: 14px;
+        flex-basis: 100%;
+    }
+     .event-dates {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+     .event-dates p {
+        font-size: 12px;
+    }
+     hr {
+        margin: 5px auto;
+    }
+     .event-dates:hover .event-desc {
+        bottom: 25% !important;
+    }
+}
