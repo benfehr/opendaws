@@ -279,6 +279,9 @@ hr {
 form {
     margin-top: 50px;
     text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 form h1 {

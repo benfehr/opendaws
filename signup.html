@@ -23,17 +23,18 @@
                 <li><a href="signup.html">Sign Up</a></li>
             </ul>
         </div>
-        <form>
+        <form method="post" action="https://opendaw.com/"">
             <h1>Sign Up</h1>
-            <input type="text" name="" placeholder="Full Name">
-            <input type="text" name="" list="DAW" placeholder="Favourite DAW">>
+            <input type="text" name="full_name" placeholder="Full Name">
+            <input type="text" name="favourite_daw" list="DAW" placeholder="Favourite DAW">
             <datalist id="DAW">
                 <option>Ableton</option>
                 <option>Logic Pro</option>
                 <option>Pro Tools</option>
                 <option>Cubase</option>
+                <option>FL Studio</option>
             </datalist>
-            <input type="email" name="" placeholder="Email">
+            <input type="email" name="email_address" placeholder="Email">
             <button type="submit">Sign Up</button>
     
         </form>
