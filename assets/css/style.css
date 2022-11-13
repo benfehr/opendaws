@@ -279,7 +279,8 @@ button {
         width: 100%;
     }
     .mission-statement h1 {
-        font-size: 35px;
+        font-size: 30px;
+        padding-top: 10px;
     }
     .email {
         font-size: 14px;
