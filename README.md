@@ -3,6 +3,9 @@
 
 Open DAW is a community based group which aims to bring music technology education to everyone, regardless of upbringing. The website is a starting point and gives members of the community access to all information they need to become involved, including contact information, event date and locations and also the ability to sign up for more information through an email sign up.
 
+<img width="1179" alt="Screenshot 2022-11-14 at 08 53 45" src="https://user-images.githubusercontent.com/113368691/201616959-a2f29a31-ffba-498b-9c6b-bb7dfffa3300.png">
+
+
 ## Features
 
 . Navigation of the website is made inredibly straightforward due to the simplicity of the site. From the home page there are three navigation links in the top right corner that will take you to the relevant sections you need to access.
@@ -72,7 +75,7 @@ Open DAW is a community based group which aims to bring music technology educati
 . The website was deployed using github pages.
 . This is done by going to the settings page in your repositories and choosing to publish the site from the main branch
 
-Link to site :
+Link to site : https://benfehr.github.io/opendaws/
 
 
 ## Credits
