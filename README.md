@@ -9,3 +9,4 @@ Open DAW is a community based group which aims to bring music technology educati
 . All links are repsonisve and are in a contrasting color to the background to make it clear and readable for all types of screens.
 . There is a bold mission statement on the main page of the site that has a brief and straight to the point message as to what the the community is
 
+<img width="1423" alt="Logo and Nav Bar" src="https://user-images.githubusercontent.com/113368691/201608281-c9de6d84-f7b1-487a-95e1-86b4ec0fb196.png">
