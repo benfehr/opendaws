@@ -46,6 +46,16 @@ Open DAW is a community based group which aims to bring music technology educati
 
 <img width="1428" alt="Screenshot 2022-11-14 at 08 30 24" src="https://user-images.githubusercontent.com/113368691/201612144-82d82ce1-15a6-4b1a-943d-ed7898137593.png">
 
+## Target Audience
+
+. The site is aimed at individuals who require extra support when it comes to applying themselves to music technology.
+
+## User Stories
+
+. As a user, I want the site to convey it's message clearly
+. As a user, I want to find out the information I need from the site
+. As a user, I want to be able to navigate the site easily
+
 ## Bugs and testing
 
 . I have tested the project works in all browser types
