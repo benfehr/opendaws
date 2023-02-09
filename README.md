@@ -72,11 +72,14 @@ Open DAW is a community based group which aims to bring music technology educati
 
 ## Deployment
 
-. The website was deployed using github pages.
-. This is done by going to the settings page in your repositories and choosing to publish the site from the main branch
+I deployed the page on GitHub pages via the following procedure: -
 
-Link to site : https://benfehr.github.io/opendaws/
+1. From the project's [repository](https://github.com/benfehr/opendaws), go to the **Settings** tab.
+2. From the left-hand menu, select the **Pages** tab.
+3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
+4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
+You  can find the live site via the following URL - [live webpage](https://benfehr.github.io/opendaws/)
 
 ## Credits
 
